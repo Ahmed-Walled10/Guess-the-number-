@@ -6,12 +6,20 @@
  - Binary Search Algorithm:
    The program implements a binary search to guess the user's chosen number efficiently.
 It narrows down the range of possible numbers using comparisons (min, max, and mid values).
+
 - Custom Input Handling:
-A PROC to read user input ensures robust number entry and allows dynamic inputs.
+A PROC to read user input ensures robust number entry and allows dynamic inputs,
 Input validation ensures only positive numbers are accepted and right inputs.
+
 - Time efficiency:
   We use in our project an Efficient algorithm with logarithmic time complexity O(logn).
   and it's better than the normal liner search the takes O(n).
-  
+
+  # challenges
+  - 1-Reading Numbers:
+  -- Creating a reusable input procedure (PROC) for reading numbers from the user was difficult because:
+The program had to read multi-digit numbers character by character.
+-Converting ASCII characters into a numerical value required precise handling of each digit while avoiding overflow.
+-Ensuring the procedure worked correctly across different inputs, like leading zeros or invalid characters, added further complexity.
 
 
