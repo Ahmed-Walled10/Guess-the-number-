@@ -29,3 +29,5 @@ Input validation ensures only positive numbers are accepted and right inputs.
   - Maximizing Time Efficiency:
       Implementing the binary search algorithm in assembly was conceptually straightforward, but optimizing it for time efficiency was challenging with such a low programming language using memory access and manageing registers.
 
+# Examples
+
