@@ -30,4 +30,4 @@ Input validation ensures only positive numbers are accepted and right inputs.
       Implementing the binary search algorithm in assembly was conceptually straightforward, but optimizing it for time efficiency was challenging with such a low programming language using memory access and manageing registers.
 
 # Examples
-
+![](/photo2_project/0_riJmHbxu2CZlF6Ad.png)
