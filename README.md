@@ -16,10 +16,16 @@ Input validation ensures only positive numbers are accepted and right inputs.
   and it's better than the normal liner search the takes O(n).
 
   # challenges
-  - 1-Reading Numbers:
-  -- Creating a reusable input procedure (PROC) for reading numbers from the user was difficult because:
-The program had to read multi-digit numbers character by character.
--Converting ASCII characters into a numerical value required precise handling of each digit while avoiding overflow.
--Ensuring the procedure worked correctly across different inputs, like leading zeros or invalid characters, added further complexity.
+  - Reading Numbers:
+      Creating a reusable input procedure (PROC) for reading numbers from the user was difficult because:
+          1-The program had to read multi-digit numbers character by character.
+          2-Converting ASCII characters into a numerical value required precise handling of each digit while avoiding overflow.
+          3-Ensuring the procedure worked correctly across different inputs, like leading zeros or invalid characters, added further complexity.
+  - Outputting Numbers:
+        Displaying numbers involved reversing the process:
+            1-Dividing the number by 10 repeatedly to extract digits in reverse order.
+            2-Storing and then printing digits in the correct sequence was a meticulous task in assembly, especially while avoiding unnecessary memory usage
 
+  - Maximizing Time Efficiency:
+      Implementing the binary search algorithm in assembly was conceptually straightforward, but optimizing it for time efficiency was challenging with such a low programming language using memory access and manageing registers.
 
