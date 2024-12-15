@@ -9,7 +9,7 @@ It narrows down the range of possible numbers using comparisons (min, max, and m
 - Custom Input Handling:
 A PROC to read user input ensures robust number entry and allows dynamic inputs.
 Input validation ensures only positive numbers are accepted and right inputs.
-- Time efficiency
+- Time efficiency:
   We use in our project an Efficient algorithm with logarithmic time complexity O(logn).
   and it's better than the normal liner search the takes O(n).
   
